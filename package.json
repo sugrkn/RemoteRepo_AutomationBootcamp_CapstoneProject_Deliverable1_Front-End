@@ -1,0 +1,15 @@
+{
+  "name": "localrepo_automationbootcamp_capstoneproject_deliverable1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "saucedemo1-e2e": "playwright test --grep=smoke --headed --project=chromium --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.29.2"
+  }
+}
