@@ -18,7 +18,7 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run Playwright tests
-      run: npm run saucedemo1.e2e
+      run: npm run saucedemo1-e2e
     - uses: actions/upload-artifact@v3
       if: always()
       with:
