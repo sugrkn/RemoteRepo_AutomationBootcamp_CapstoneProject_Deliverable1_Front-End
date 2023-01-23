@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "saucedemo1-e2e": "playwright test --grep=smoke --project=chromium --debug"
+      "saucedemo1-e2e": "playwright test --grep=smoke"
   },
   "keywords": [],
   "author": "",
