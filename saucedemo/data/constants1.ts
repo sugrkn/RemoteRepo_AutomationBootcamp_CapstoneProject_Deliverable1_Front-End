@@ -23,7 +23,7 @@ export const CARTITEMDESCRIPTION = {
 }
 
 export const CUSTOMERINFO = {
-    firstName: 'David Eim',
+    firstName: 'David',
     lastName: 'Eim',
     zipCode: '98001'
 }
