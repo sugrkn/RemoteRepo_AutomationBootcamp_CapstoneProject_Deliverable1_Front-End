@@ -5,7 +5,7 @@ on:
   pull_request:
     branches: [ main, master ]
 jobs:
-  saucedemo1-e2e_test:
+  saucedemo1-e2e-allbrowsers-headless:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
