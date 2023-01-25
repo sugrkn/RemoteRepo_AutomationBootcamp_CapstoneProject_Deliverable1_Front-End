@@ -5,7 +5,7 @@ on:
   pull_request:
     branches: [ main, master ]
 jobs:
-  saucedemo1-e2e-allbrowsers-headless:
+  saucedemo1-e2e-test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
@@ -18,7 +18,7 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run Playwright tests
-      run: npm run saucedemo1-e2e
+      run: npm run saucedemo1-e2e-allbrowsers-headless
     - uses: actions/upload-artifact@v3
       if: always()
       with:
