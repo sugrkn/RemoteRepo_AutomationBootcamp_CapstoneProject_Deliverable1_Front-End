@@ -4,15 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "saucedemo-e2e-chrome-headed-debug": "playwright test --grep=smoke --headed --project=chromium --debug",
-    "saucedemo-e2e-chrome-headless-debug": "playwright test --grep=smoke --project=chromium --debug",
-    "saucedemo-e2e-chrome-headed": "playwright test --grep=smoke --headed --project=chromium",
-    "saucedemo-e2e-chrome-headless": "playwright test --grep=smoke --project=chromium",
+    "saucedemo1-e2e-chrome-headed-debug": "playwright test --grep=smoke --headed --project=chromium --debug",
+    "saucedemo1-e2e-chrome-headless-debug": "playwright test --grep=smoke --project=chromium --debug",
+    "saucedemo1-e2e-chrome-headed": "playwright test --grep=smoke --headed --project=chromium",
+    "saucedemo1-e2e-chrome-headless": "playwright test --grep=smoke --project=chromium",
 
-    "saucedemo-e2e-allbrowsers-headed-debug": "playwright test --grep=smoke --headed --debug",
-    "saucedemo-e2e-allbrowsers-headless-debug": "playwright test --grep=smoke --debug",
-    "saucedemo-e2e-allbrowsers-headed": "playwright test --grep=smoke --headed",
-    "saucedemo-e2e-allbrowsers-headless": "playwright test --grep=smoke"
+    "saucedemo1-e2e-allbrowsers-headed-debug": "playwright test --grep=smoke --headed --debug",
+    "saucedemo1-e2e-allbrowsers-headless-debug": "playwright test --grep=smoke --debug",
+    "saucedemo1-e2e-allbrowsers-headed": "playwright test --grep=smoke --headed",
+    "saucedemo1-e2e-allbrowsers-headless": "playwright test --grep=smoke"
   },
   "keywords": [],
   "author": "",
